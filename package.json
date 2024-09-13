@@ -1,12 +1,13 @@
 {
-  "name": "react-web-vector-icons",
-  "version": "1.0.2",
+  "name": "@mmbt/react-web-vector-icons",
+  "version": "1.1.1",
   "description": "An adaptation of react-native-vector-icons for react web",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sturmenta/react-web-vector-icons.git"
   },
+  "types": "./src/index.d.ts",
   "keywords": [
     "react",
     "icon",
