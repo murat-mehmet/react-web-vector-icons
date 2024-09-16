@@ -8,7 +8,7 @@ export default function createIconSet(glyphMap, fontFamily) {
 
       let glyph = props.name ? glyphMap[props.name] || '?' : '';
       if (typeof glyph === 'number') {
-        glyph = String.fromCharCode(glyph);
+        glyph = String.fromCodePoint(glyph);
       }
 
       let style = _([
