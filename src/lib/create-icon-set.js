@@ -13,9 +13,9 @@ export default function createIconSet(glyphMap, fontFamily) {
 
       let style = _([
         style = {
-          fontSize: props.size ? props.size : 30,
-          color: props.color ? props.color : 'grey',
         },
+        props.color ? {color: props.color} : null,
+        props.size ? {fontSize: props.size} : null,
         props.style,
         {
           fontFamily: fontFamily,
@@ -25,7 +25,7 @@ export default function createIconSet(glyphMap, fontFamily) {
       ]);
 
       return (
-        <i style={style}>
+        <i style={style} className={props.className}>
           {glyph}
         </i>
       );

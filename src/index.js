@@ -44,9 +44,10 @@ class Icon extends Component{
     return(
       <Icon
         name={this.props.name}
-        color={this.props.color ? this.props.color : 'grey'}
-        size={this.props.size ? this.props.size : 30}
+        color={this.props.color}
+        size={this.props.size}
         style={this.props.style}
+        className={this.props.className}
       />
     );
   }

@@ -3,14 +3,15 @@ declare module 'react-web-vector-icons' {
   
     class Icon extends React.Component<IconProps> {}
   
-    interface IconProps {
+    export interface IconProps {
       name: string;
       font: FontType;
       size?: number;
       color?: string;
+      className?: string
     }
   
-    type FontType =
+    export type FontType =
       | 'AntDesign'
       | 'Entypo'
       | 'EvilIcons'
