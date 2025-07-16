@@ -22,6 +22,7 @@ declare module 'react-web-vector-icons' {
       | 'Fontisto'
       | 'Foundation'
       | 'Ionicons'
+      | 'Lucide'
       | 'MaterialCommunityIcons'
       | 'MaterialIcons'
       | 'Octicons'

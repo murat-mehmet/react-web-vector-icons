@@ -9,6 +9,7 @@ import Icon, {
 	FontAwesome,
 	Foundation,
 	Ionicons,
+	Lucide,
 	MaterialCommunityIcons,
 	MaterialIcons,
 	SimpleLineIcons,
@@ -59,6 +60,12 @@ const Index = () => {
 
 			<Ionicons
 				name='ios-flash'
+				color='yellow'
+				size={50}
+			/>
+
+			<Lucide
+				name='landmark'
 				color='yellow'
 				size={50}
 			/>

@@ -10,6 +10,7 @@ export const FontAwesome6 = createIcon(require('./glyphmaps/FontAwesome6Free.jso
 export const Fontisto = createIcon(require('./glyphmaps/Fontisto.json'), 'Fontisto');
 export const Foundation = createIcon(require('./glyphmaps/Foundation.json'), 'Foundation');
 export const Ionicons = createIcon(require('./glyphmaps/Ionicons.json'), 'Ionicons');
+export const Lucide = createIcon(require('./glyphmaps/Lucide.json'), 'Lucide');
 export const MaterialCommunityIcons = createIcon(require('./glyphmaps/MaterialCommunityIcons.json'), 'MaterialCommunityIcons');
 export const MaterialIcons = createIcon(require('./glyphmaps/MaterialIcons.json'), 'MaterialIcons');
 export const Octicons = createIcon(require('./glyphmaps/Octicons.json'), 'Octicons');
@@ -34,6 +35,7 @@ class Icon extends Component{
       case 'Fontisto': Icon = Fontisto; break;
       case 'Foundation': Icon = Foundation; break;
       case 'Ionicons': Icon = Ionicons; break;
+      case 'Lucide': Icon = Lucide; break;
       case 'MaterialIcons': Icon = MaterialIcons; break;
       case 'MaterialCommunityIcons': Icon = MaterialCommunityIcons; break;
       case 'Octicons': Icon = Octicons; break;

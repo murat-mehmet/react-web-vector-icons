@@ -12,6 +12,7 @@ module.exports = {
     Fontisto: './src/Fontisto.js',
     Foundation: './src/Foundation.js',
     Ionicons: './src/Ionicons.js',
+    Lucide: './src/Lucide.js',
     MaterialCommunityIcons: './src/MaterialCommunityIcons.js',
     MaterialIcons: './src/MaterialIcons.js',
     Octicons: './src/Octicons.js',

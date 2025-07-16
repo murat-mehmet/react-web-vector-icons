@@ -9,6 +9,7 @@ module.exports = {
   Foundation: require('./Fontisto.ttf'),
   Foundation: require('./Foundation.ttf'),
   Ionicons: require('./Ionicons.ttf'),
+  Lucide: require('./Lucide.ttf'),
   MaterialCommunityIcons: require('./MaterialCommunityIcons.ttf'),
   MaterialIcons: require('./MaterialIcons.ttf'),
   SimpleLineIcons: require('./SimpleLineIcons.ttf'),
